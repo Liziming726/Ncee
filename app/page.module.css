@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 3rem;
   min-height: 100vh;
 }
 
@@ -106,7 +106,9 @@
 
 .logo {
   position: relative;
+  opacity: .1;
 }
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
