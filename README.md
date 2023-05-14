@@ -4,7 +4,10 @@
         ![首页]()
         2.Login | 注册同理
         ![登录]()
+## graph
 
+    main 开发
+    try 练手
         
 --- 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
