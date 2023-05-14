@@ -50,8 +50,8 @@ export default function Login() {
 
   return (
     <div>
-      <Button onClick={handleClickOpen}>
-        <p>Sign in</p>
+      <Button className={styles.btn} onClick={handleClickOpen}>
+        <p className={styles.para}>Sign in</p>
       </Button>
 
       <Dialog open={open} onClose={handleClose}>

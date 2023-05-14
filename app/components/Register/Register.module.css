@@ -1,0 +1,45 @@
+.vercelLogo{
+    margin: 15px;
+}
+
+.title{
+    font-size: .875rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+}
+
+.ipt{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border-bottom: 0;
+}
+.ipt:hover{
+    border-bottom: 0;
+}
+
+.submit{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0 10px;
+    margin-top: 10px;
+    background-color: #000;
+    cursor: pointer;
+    color: #fff;
+}
+
+.submit:hover{
+    background-color: #333;
+    background-image: linear-gradient(to right, #000 0%, #333 100%);
+}
+
+.click {
+    color: #000;
+    cursor: pointer;
+}
