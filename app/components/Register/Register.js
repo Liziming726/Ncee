@@ -34,13 +34,10 @@ export default function Register() {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post(
-        "https://example.com/register",
-        {
-          username: username,
-          password: password,
-        }
-      );
+      const response = await axios.post("https://example.com/register", {
+        username: username,
+        password: password,
+      });
       localStorage.setItem("user", JSON.stringify(response.data));
       handleClose();
     } catch (error) {
@@ -50,9 +47,9 @@ export default function Register() {
 
   return (
     <div>
-      <a className={styles.click} onClick={handleClickOpen}>
-      Register now
-      </a>
+      <Button className={styles.click} onClick={handleClickOpen}>
+        Register now
+      </Button>
 
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>
