@@ -3,6 +3,8 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Main from "./components/Main/main";
 
+import { useState } from "react";
+
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import Search from "./components/Search/Search";
@@ -10,6 +12,7 @@ import Center from "./components/Center/Center";
 import UniversityMap from "./components/UniversityMap/UniversityMap";
 
 export default function Home() {
+  const [isLogin, setIsLogin] = useState(false);
   return (
     <>
       <main className={styles.main}>
@@ -38,8 +41,8 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Register />
-              <Login />
+              <Register isLogin={isLogin} />
+              <Login setIsLogin={setIsLogin} />
             </a>
           </div>
         </div>
