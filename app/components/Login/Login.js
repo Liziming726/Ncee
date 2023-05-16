@@ -12,6 +12,7 @@ import styles from "./Login.module.css";
 import axios from "axios";
 
 export default function Login() {
+  const user = JSON.parse(localStorage.getItem("user"));
   const [open, setOpen] = useState(false);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -42,12 +43,24 @@ export default function Login() {
         }
       );
       localStorage.setItem("user", JSON.stringify(response.data));
+      props.setIsLogin(true);
       handleClose();
     } catch (error) {
       console.error(error);
     }
   };
 
+// 测试登录保存数据
+  // const handleSubmit = async () => {
+  //   try {
+  //     const response = { data: { name: "John Doe" } }; // dummy user object
+  //     localStorage.setItem("user", JSON.stringify(response.data));
+  //     props.setIsLogin(true);
+  //     handleClose();
+  //   } catch (error) {
+  //     console.error(error);
+  //   }
+  // };
   return (
     <div>
       <Button className={styles.btn} onClick={handleClickOpen}>
