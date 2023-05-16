@@ -1,16 +1,27 @@
-# Begin
+## Begin
+
     5/13 
-        1.Home page | 后期再改
+        Home page | 后期再改
         ![首页]()
-        2.Login | 注册同理
+        Login | 注册同理
         ![登录]()
+    
+    5/16
+        添加地图 (https://uiwjs.github.io/react-baidu-map)
+
 ## graph
 
     main 开发
     try 练手
-        123
+
+## 记录信息
+
+    高德地图api 	bf7880049c04c36fa1ae25fcd1e2ffad
+    目前用的百度地图api不是我的，记得换
+
+
 --- 
-空推测试123
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -39,9 +50,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
