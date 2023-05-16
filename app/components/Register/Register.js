@@ -12,7 +12,7 @@ import {
 import styles from "./Register.module.css";
 import axios from "axios";
 
-export default function Register() {
+export default function Register({ isLogin }) {
   const [open, setOpen] = useState(false);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -47,43 +47,47 @@ export default function Register() {
   };
 
   return (
-    <div>
-      <ButtonBase className={styles.click} onClick={handleClickOpen}>
-      Register now
-      </ButtonBase>
-
-      <Dialog open={open} onClose={handleClose}>
-        <DialogTitle>
-          <Image
-            src="/vercel.svg"
-            alt="Vercel Logo"
-            className={styles.vercelLogo}
-            width={400}
-            height={24}
-            priority
-          />
-        </DialogTitle>
-        <DialogContent>
-          <p className={styles.title}>Email address</p>
-          <Input
-            className={styles.ipt}
-            type="username"
-            value={username}
-            onChange={handleUsernameChange}
-          />
-          <p className={styles.title}>Password</p>
-          <Input
-            className={styles.ipt}
-            type="password"
-            value={password}
-            onChange={handlePasswordChange}
-          />
-          <Button className={styles.submit} onClick={handleSubmit}>
+    <>
+    {isLogin ? null : (
+        <div>
+          <ButtonBase className={styles.click} onClick={handleClickOpen}>
             Register now
-          </Button>
-          {/* <a href="">Forgot password ?</a> */}
-        </DialogContent>
-      </Dialog>
-    </div>
+          </ButtonBase>
+
+          <Dialog open={open} onClose={handleClose}>
+            <DialogTitle>
+              <Image
+                src="/vercel.svg"
+                alt="Vercel Logo"
+                className={styles.vercelLogo}
+                width={400}
+                height={24}
+                priority
+              />
+            </DialogTitle>
+            <DialogContent>
+              <p className={styles.title}>Email address</p>
+              <Input
+                className={styles.ipt}
+                type="username"
+                value={username}
+                onChange={handleUsernameChange}
+              />
+              <p className={styles.title}>Password</p>
+              <Input
+                className={styles.ipt}
+                type="password"
+                value={password}
+                onChange={handlePasswordChange}
+              />
+              <Button className={styles.submit} onClick={handleSubmit}>
+                Register now
+              </Button>
+              {/* <a href="">Forgot password ?</a> */}
+            </DialogContent>
+          </Dialog>
+        </div>
+      )}
+    </>
   );
 }
