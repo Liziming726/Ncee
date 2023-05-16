@@ -50,9 +50,13 @@ export default function Login() {
 
   return (
     <div>
+      {user ? (
+      <p>Welcome, {user.name}!</p> // display user data if available
+    ) : (
       <Button className={styles.btn} onClick={handleClickOpen}>
         <p className={styles.para}>Sign in</p>
       </Button>
+    )}
 
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>
