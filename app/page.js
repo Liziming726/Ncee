@@ -22,6 +22,7 @@ export default function Home() {
             <Image
               className={styles.logo}
               src="/next.svg"
+              // src="/textlogo.svg"
               alt="Next.js Logo"
               width={80}
               height={37}
@@ -51,10 +52,10 @@ export default function Home() {
           {/* <Center /> */}
           <Image
             className={styles.logo}
-            src="/next.svg"
+            src="/textlogo.svg"
             alt="Next.js Logo"
-            width={180}
-            height={37}
+            width={280}
+            height={140}
             opacity={0.5}
             priority
           />
