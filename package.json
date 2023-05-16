@@ -14,12 +14,15 @@
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.18",
     "@mui/material": "^5.13.0",
+    "@uiw/react-amap": "^5.0.1",
+    "@uiw/react-baidu-map": "^2.6.0",
     "antd": "^5.4.7",
     "axios": "^1.4.0",
     "eslint": "8.39.0",
     "eslint-config-next": "13.4.1",
-    "next": "13.4.1",
+    "next": "^13.4.2",
     "react": "18.2.0",
+    "react-bmapgl": "^0.2.20",
     "react-dom": "18.2.0"
   }
 }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import {
   Button,
+  ButtonBase,
   Dialog,
   DialogContent,
   DialogTitle,
@@ -47,9 +48,9 @@ export default function Register() {
 
   return (
     <div>
-      <Button className={styles.click} onClick={handleClickOpen}>
-        Register now
-      </Button>
+      <ButtonBase className={styles.click} onClick={handleClickOpen}>
+      Register now
+      </ButtonBase>
 
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>

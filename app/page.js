@@ -2,15 +2,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Main from "./components/Main/main";
-import Link from "next/link";
 
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import Search from "./components/Search/Search";
 import Center from "./components/Center/Center";
+import UniversityMap from "./components/UniversityMap/UniversityMap";
 
 export default function Home() {
-  
   return (
     <>
       <main className={styles.main}>
@@ -112,9 +111,9 @@ export default function Home() {
           </a>
         </div>
       </main>
-      <main className={styles.main}>
-        <Main />
-      </main>
+      <Main />
+      {/* 大学位置 */}
+      <UniversityMap />
     </>
   );
 }

@@ -30,6 +30,7 @@ const features = [
 
 export default function Main() {
   return (
+    <div className={styles.app}>
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
@@ -58,6 +59,7 @@ export default function Main() {
           </dl>
         </div>
       </div>
+    </div>
     </div>
   )
 }

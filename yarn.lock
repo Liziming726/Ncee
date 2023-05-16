@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@amap/amap-jsapi-loader@^1.0.1":
+  "integrity" "sha512-nPyLKt7Ow/ThHLkSvn2etQlUzqxmTVgK7bIgwdBRTg2HK5668oN7xVxkaiRe3YZEzGzfV2XgH5Jmu2T73ljejw=="
+  "resolved" "https://registry.npmmirror.com/@amap/amap-jsapi-loader/-/amap-jsapi-loader-1.0.1.tgz"
+  "version" "1.0.1"
+
 "@ant-design/colors@^7.0.0":
   "integrity" "sha512-iVm/9PfGCbC0dSMBrz7oiEXZaaGH7ceU40OJEfKmyuzR9R5CRimJYPlRiFtMQGQcbNMea/ePcoIebi4ASGYXtg=="
   "resolved" "https://registry.npmmirror.com/@ant-design/colors/-/colors-7.0.0.tgz"
@@ -369,10 +374,10 @@
     "prop-types" "^15.8.1"
     "react-is" "^18.2.0"
 
-"@next/env@13.4.1":
-  "integrity" "sha512-eD6WCBMFjLFooLM19SIhSkWBHtaFrZFfg2Cxnyl3vS3DAdFRfnx5TY2RxlkuKXdIRCC0ySbtK9JXXt8qLCqzZg=="
-  "resolved" "https://registry.npmjs.org/@next/env/-/env-13.4.1.tgz"
-  "version" "13.4.1"
+"@next/env@13.4.2":
+  "integrity" "sha512-Wqvo7lDeS0KGwtwg9TT9wKQ8raelmUxt+TQKWvG/xKfcmDXNOtCuaszcfCF8JzlBG1q0VhpI6CKaRMbVPMDWgw=="
+  "resolved" "https://registry.npmmirror.com/@next/env/-/env-13.4.2.tgz"
+  "version" "13.4.2"
 
 "@next/eslint-plugin-next@13.4.1":
   "integrity" "sha512-tVPS/2FKlA3ANCRCYZVT5jdbUKasBU8LG6bYqcNhyORDFTlDYa4cAWQJjZ7msIgLwMQIbL8CAsxrOL8maa/4Lg=="
@@ -381,10 +386,10 @@
   dependencies:
     "glob" "7.1.7"
 
-"@next/swc-win32-x64-msvc@13.4.1":
-  "integrity" "sha512-n8V5ImLQZibKTu10UUdI3nIeTLkliEXe628qxqW9v8My3BAH2a7H0SaCqkV2OgqFnn8sG1wxKYw9/SNJ632kSA=="
-  "resolved" "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.4.1.tgz"
-  "version" "13.4.1"
+"@next/swc-win32-x64-msvc@13.4.2":
+  "integrity" "sha512-O7bort1Vld00cu8g0jHZq3cbSTUNMohOEvYqsqE10+yfohhdPHzvzO+ziJRz4Dyyr/fYKREwS7gR4JC0soSOMw=="
+  "resolved" "https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.4.2.tgz"
+  "version" "13.4.2"
 
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
@@ -579,6 +584,560 @@
   dependencies:
     "@typescript-eslint/types" "5.59.2"
     "eslint-visitor-keys" "^3.3.0"
+
+"@uiw/react-amap-api-loader@5.0.1":
+  "integrity" "sha512-1n8EghxILosXLBzluTxacjg/2AL5HnA2XsSyRtQm4joVVUhxo7qRLmwtpMYFKeUgwI4ev3Y1KaOv8aZNVYNuHQ=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-api-loader/-/react-amap-api-loader-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@amap/amap-jsapi-loader" "^1.0.1"
+    "@uiw/react-amap-require-script" "5.0.1"
+    "@uiw/react-amap-types" "5.0.1"
+
+"@uiw/react-amap-auto-complete@5.0.1":
+  "integrity" "sha512-ASLfcaIj7n+RBbdJKxg/dy6cvy5mogiS1/MqqkxVSW4AwEd+kh0A6QzZ+GAWj6cZ8msA5t0IGXO8qtsAFEo3oA=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-auto-complete/-/react-amap-auto-complete-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-types" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-bezier-curve@5.0.1":
+  "integrity" "sha512-vT79sUjdTgnU5wW0U5J6BKYH8+evupJv05UMRlFvs/eT6RBF81abI4X85fwq6n0ytw/qkMmQI9H8oaFfJK13Fg=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-bezier-curve/-/react-amap-bezier-curve-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-types" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-circle-marker@5.0.1":
+  "integrity" "sha512-BHk30nTQ/7EGW+J7HB38ievZON18Dkbhduv+/skacdixOefoOOj2QqRvSHqfrYMloGwQDWJ2Rrd8byk9tj4Q3g=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-circle-marker/-/react-amap-circle-marker-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-types" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-circle@5.0.1":
+  "integrity" "sha512-iSf8ohT2N4gpzaMpoDJRyg2IKlIjvKlqoJcNTokOeez8T+yndsf3Dg+I8CD7bM6aB30haiQM6J+WNJb2NZp0wQ=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-circle/-/react-amap-circle-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-types" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-context-menu@5.0.1":
+  "integrity" "sha512-5ZNii8omg2iSJV+xtvX3WBValHRNIKTWFPBFUWVFB2Op8ljncbCU6E5hUbJ7oHE2bSmQyQrdGgzl1wOkjgmHPA=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-context-menu/-/react-amap-context-menu-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-types" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-control-bar-control@5.0.1":
+  "integrity" "sha512-IX75MosxSNI7KtRBWQv+U9PJeAtfyYJmiiKQZ5buSq3Wqu0q3bcuz/a80TWqKVGliL/ckYixDIc93WnvjeA83g=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-control-bar-control/-/react-amap-control-bar-control-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-types" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-ellipse@5.0.1":
+  "integrity" "sha512-+G4PH8fadfsu8Aa9MNsw6LY409Ri15wmEon5YUyYwUGhsw1W1Igf5XJbP6DGqVpJ86OVUfC449iBfNKhSxKecQ=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-ellipse/-/react-amap-ellipse-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-types" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-geolocation@5.0.1":
+  "integrity" "sha512-KwayMvNUrIon9OWv3F+SMsT2mDbWbatGcI7FWZdPLVHiuO0Nt8TQk4d/dzD3Zxze/kUv9/JN95458GVLU6FeEQ=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-geolocation/-/react-amap-geolocation-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+
+"@uiw/react-amap-hawk-eye-control@5.0.1":
+  "integrity" "sha512-mvS1ruZnNp08e+FQEHLPmVnaAHoOcNOFO2f6pVBkP4GfC3GXnQoj7ChfPhba673rivQnqKnDMRxjE1gg+JvGAg=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-hawk-eye-control/-/react-amap-hawk-eye-control-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-info-window@5.0.1":
+  "integrity" "sha512-HlMAhl9J2Dj4kWhywFR1q7w6s1FRuiw7/eFUVuq+2qIKyuibmzcoMtR2gqYUZquk4dFOdt9wr8XwWX8ffPvF0g=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-info-window/-/react-amap-info-window-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-label-marker@5.0.1":
+  "integrity" "sha512-IFY/xy8v4+/fG6xRWe5Z+XadvY3wBBHvY2Ad2PKIMgEaf9MC/uUE0SdMnG0BIJFMqDRq9BDRDkCky5su96Kxng=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-label-marker/-/react-amap-label-marker-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-map-type-control@5.0.1":
+  "integrity" "sha512-5aJAyxUzRxn77Lkyw3EY0Zrt9ckPPhyUI5rQrYNHo9brz3QlKzJFWe7rkEghdffmK3Yuh9ZQzkrMN+k3gBU8ng=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-map-type-control/-/react-amap-map-type-control-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-map@5.0.1":
+  "integrity" "sha512-CNzBjQ34/MXDe0pTpXPf49ej+rV2G1PpTcpAb4IamhZthS5PepW96gDzdANWg9eWuJI121ZngxmV39C6IGPCxw=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-map/-/react-amap-map-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-types" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-marker@5.0.1":
+  "integrity" "sha512-6Yx5GiLb/Rzla+qQE/tkijKDP8caijW5NxAv3T7dtUlxD4/WGl+uxPHOla7HEM+XBO9k64fodSkVRS6wLPspGw=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-marker/-/react-amap-marker-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-mass-marks@5.0.1":
+  "integrity" "sha512-ZoAbfPIuqNnn0kZidEkyeGIlOw33cdqQqmUs885UrVF8Ty41Z/Lwe8K2H+jQ7nweSeIMGqXTzTd5A9TJd4su3A=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-mass-marks/-/react-amap-mass-marks-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-mouse-tool@5.0.1":
+  "integrity" "sha512-VJ6IidFQIcwTbs5NJieVPicyelmAtqPmWPXDsPTc+NPCQh5wlbIBOSGhU/AxCnhle80O+tRPuLmuMSL09L6N8A=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-mouse-tool/-/react-amap-mouse-tool-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-types" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-poly-editor@5.0.1":
+  "integrity" "sha512-KJKC0y0CaCKAQhcb2I13pWvwcbRuBwNe/RYtGsYwR8Y76BjJMGLWFa+ttcTf/nkfdThD3NO7m8TMx6j209ighA=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-poly-editor/-/react-amap-poly-editor-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-polygon" "5.0.1"
+    "@uiw/react-amap-types" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-polygon-editor@5.0.1":
+  "integrity" "sha512-aduvNIad7MU+orlwJOKmaFKCgMIX38xSiw3E8ndpU1XeUuqsNjpXIKSu757lbpSx66tQvf/rCsfBZKEVFbWruQ=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-polygon-editor/-/react-amap-polygon-editor-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-polygon" "5.0.1"
+    "@uiw/react-amap-types" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-polygon@5.0.1":
+  "integrity" "sha512-hTSnwUV22WFxxSWqCveWjCTxy8n3Xu6g42yPWR7gkpxXB0FwHPn2Yip1rVQyYU1ET8mHUUiCzgU2DE3MnwUzaQ=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-polygon/-/react-amap-polygon-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-polyline-editor@5.0.1":
+  "integrity" "sha512-Nvm2/cDXV2oAnPAxLgh66irulnNa+wmKscqaLm66/1bjzNZ6/ukoX0FMz6lILcOU+9KSFUiC5M9dKSl9SgoJWg=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-polyline-editor/-/react-amap-polyline-editor-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-polygon" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-polyline@5.0.1":
+  "integrity" "sha512-Brq+MBG34Z8GMPF8W+kicq3v5qBrcryx7SKGjcVCLrSQIVrYNO8fa1ZinqwWn4hNhQTDNrdpwovup/UAZRXLbQ=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-polyline/-/react-amap-polyline-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-rectangle@5.0.1":
+  "integrity" "sha512-iv1pRr04sjnePZf/u3fjinJWEZSgzpFidZrVYZmHwlQ/0tYu1eHlMn3g5VT+HzXFaoUIxWsrMcy0OZu7g5l7lQ=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-rectangle/-/react-amap-rectangle-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-require-script@5.0.1":
+  "integrity" "sha512-p2hHa1t1rFqjuULoTyPb0/VayO5rrKwKG5MyqF2hCZG1IMgVC8SMGqrY9RlNmhuQG6AxFbiJS0w/nOrawnD/qA=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-require-script/-/react-amap-require-script-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-types" "5.0.1"
+
+"@uiw/react-amap-scale-control@5.0.1":
+  "integrity" "sha512-flW0gZB+I5rBScUA3vKWeCj2TY0E8P6TXl4nYbtwKNlF9VZPRy9jolhwu43TuB8YPspsuo4daK850p5LDHdO9Q=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-scale-control/-/react-amap-scale-control-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-text@5.0.1":
+  "integrity" "sha512-8p02nxb9Sv+x+rrMj4Fd7jvoqD/7WIizpfJSdqGIhfYq3B7jDnRtFgrFopCxwhw04MWqKtRRXsRddRaiGGYslg=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-text/-/react-amap-text-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-tile-layer@5.0.1":
+  "integrity" "sha512-tnenHuSaa4nXGyEGfZqdaCd5pm6J9vhthiyfsmHLK6ljMDODqbesjTGvJ9IETLQ7XwIYT2oqOAWlHXwBfTrtHQ=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-tile-layer/-/react-amap-tile-layer-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-tool-bar-control@5.0.1":
+  "integrity" "sha512-wg7abOYCSX9t/0xJmSI4dXp1/a3pynB201CWmVPZF4nRnjzB3sFKde0BDEO11MflNv5MLc7aC/HNI/2uNmBlLA=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-tool-bar-control/-/react-amap-tool-bar-control-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap-types@5.0.1":
+  "integrity" "sha512-BP9ZKLUvtRjLxNbkPAKemkq+BY+Qwzy3RbOmqY+ayeIwg0G1cbXKLdfNO/+olMUeJGNtJH2Cg5ZnOS//pxfCbQ=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-types/-/react-amap-types-5.0.1.tgz"
+  "version" "5.0.1"
+
+"@uiw/react-amap-utils@5.0.1":
+  "integrity" "sha512-wZ6AJhOkNwDOBrIVQr6E15/IFzUfiEsITzMz159RSEUV7IxE3hba4yU+chTILwqzrv7lYz0V3SING3u8Qrqunw=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-utils/-/react-amap-utils-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-types" "5.0.1"
+
+"@uiw/react-amap-weather@5.0.1":
+  "integrity" "sha512-3hu9BfzWlmclN2aPDzk9qhZsCnHgotCLygO39LNgS7jFk1Ema+68d3c3kT0EOx2lHIO5JJQjQrgEA0tTxJKj1A=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap-weather/-/react-amap-weather-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+
+"@uiw/react-amap@^5.0.1":
+  "integrity" "sha512-Ycvi32+/KEzsjm7a7Dn2eA1fr/zZoUwvHt5Eu3zChuu0upp1W9idhMFzyJ4AMIA2J/X11p95JJlvw7GGYBHwGA=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-amap/-/react-amap-5.0.1.tgz"
+  "version" "5.0.1"
+  dependencies:
+    "@uiw/react-amap-api-loader" "5.0.1"
+    "@uiw/react-amap-auto-complete" "5.0.1"
+    "@uiw/react-amap-bezier-curve" "5.0.1"
+    "@uiw/react-amap-circle" "5.0.1"
+    "@uiw/react-amap-circle-marker" "5.0.1"
+    "@uiw/react-amap-context-menu" "5.0.1"
+    "@uiw/react-amap-control-bar-control" "5.0.1"
+    "@uiw/react-amap-ellipse" "5.0.1"
+    "@uiw/react-amap-geolocation" "5.0.1"
+    "@uiw/react-amap-hawk-eye-control" "5.0.1"
+    "@uiw/react-amap-info-window" "5.0.1"
+    "@uiw/react-amap-label-marker" "5.0.1"
+    "@uiw/react-amap-map" "5.0.1"
+    "@uiw/react-amap-map-type-control" "5.0.1"
+    "@uiw/react-amap-marker" "5.0.1"
+    "@uiw/react-amap-mass-marks" "5.0.1"
+    "@uiw/react-amap-mouse-tool" "5.0.1"
+    "@uiw/react-amap-poly-editor" "5.0.1"
+    "@uiw/react-amap-polygon" "5.0.1"
+    "@uiw/react-amap-polygon-editor" "5.0.1"
+    "@uiw/react-amap-polyline" "5.0.1"
+    "@uiw/react-amap-polyline-editor" "5.0.1"
+    "@uiw/react-amap-rectangle" "5.0.1"
+    "@uiw/react-amap-require-script" "5.0.1"
+    "@uiw/react-amap-scale-control" "5.0.1"
+    "@uiw/react-amap-text" "5.0.1"
+    "@uiw/react-amap-tile-layer" "5.0.1"
+    "@uiw/react-amap-tool-bar-control" "5.0.1"
+    "@uiw/react-amap-types" "5.0.1"
+    "@uiw/react-amap-utils" "5.0.1"
+    "@uiw/react-amap-weather" "5.0.1"
+
+"@uiw/react-baidu-map-api-loader@2.6.0":
+  "integrity" "sha512-FN13VPuN9+FS3TWfJaPfZBpSkgLM80Bbl+YNUaACI8p1JpQgsITspc6hti6iZCndOt2qT/CU5fG6vbTyOXs5xg=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-api-loader/-/react-baidu-map-api-loader-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-circle@2.6.0":
+  "integrity" "sha512-O3tehR3GZGOj78E5AGq42FtE1JMbTkZQRAB2MRsQpQpBSkUwz0ltacrAOR9cCSVykxAufkOoMOj07v7gJMXHdg=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-circle/-/react-baidu-map-circle-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-control@2.6.0":
+  "integrity" "sha512-7KCErQXoFTsa8nl38vjqaE0e1wYAiHyTAxSvBvfLLQ3LzIOK6abBL5NOjKSGKjseeHJSQdr4Kerbb4yMBe0vUw=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-control/-/react-baidu-map-control-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-copyright-control@2.6.0":
+  "integrity" "sha512-wO3XzRcsOB4RhKVEg9FW/T5PTBS+cgJhbTF4ApazTUGxuefMiTIJE5y6eH+Xy/wQdF676adGIVWdh3Pe9AF+hw=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-copyright-control/-/react-baidu-map-copyright-control-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-curve-line@2.6.0":
+  "integrity" "sha512-nH4LrHMh9LGwf8R40nGlcqjTxs1xWM1P6bciZSvrh1XEDViRnSQMB9jttlibnZ3TNDucmncGGMkDBPryOGglpw=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-curve-line/-/react-baidu-map-curve-line-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-custom-overlay@2.6.0":
+  "integrity" "sha512-NUpllXolOLy0i/JVJK1kIcVM5IBfvV7m3qtFeJpmw7o2bniMPYpuDuYW7klY6/lHCUiSlemnidSezw/O0E/mHw=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-custom-overlay/-/react-baidu-map-custom-overlay-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-drawing-manager@2.6.0":
+  "integrity" "sha512-ff4Sclu6nQNePBqR66dpXHfZrLCrm12pegQ+41wpjiyj3xj9lj9vimHsrfgKpRnn+hAje8+ZaUSRWStI3zhiZg=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-drawing-manager/-/react-baidu-map-drawing-manager-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-geolocation-control@2.6.0":
+  "integrity" "sha512-DxipagSUcNku92ONHFrjymZrG9luw0nwIq5mQXxG5bvrBt1NWxTTdE745ZebqS0KBj6eaXXmK5WOuHFCA0TKbg=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-geolocation-control/-/react-baidu-map-geolocation-control-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-ground-overlay@2.6.0":
+  "integrity" "sha512-Ucs/ikM4BccJTOQfdnPcr2rfHEyFSddJSOslEo5tRIdPcBH2OoSWSx7t/Wx+pSZFo4aC9x+Vt+zebrRXU3UaSg=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-ground-overlay/-/react-baidu-map-ground-overlay-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-info-window@2.6.0":
+  "integrity" "sha512-8+O5HEv97dKO0oqbjxpAN13F3dSfRhNorWc0jRC1Ehd3ABGH1iwaFxHApCCHT84JJhqQ4I69B9cok6d4o1nT+A=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-info-window/-/react-baidu-map-info-window-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-label@2.6.0":
+  "integrity" "sha512-hutjpc91qCcHzv2v4AOBUZZ4qZZSXcGjdUFTfkdy3yGKgz4rY/8NPbbfrubWLDTvPSPETrWgj+ziPlh2LDEuvg=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-label/-/react-baidu-map-label-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-map@2.6.0":
+  "integrity" "sha512-wSLAb/LxTXFo2zqW6XyduJbx/AsnlHRufpWzgRhTLjG7BtnpvcZD3MTccZXpIkcv+7JmnU+IgQ85PtHc7fVPCQ=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-map/-/react-baidu-map-map-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-api-loader" "2.6.0"
+    "@uiw/react-baidu-map-types" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-marker@2.6.0":
+  "integrity" "sha512-+O1LlhdVPmzDzQ/K7yvwxk/+ZoHXIC0D1oSaXB32KnELR9Mb/5k2h4MRjpCXsAbwghZxHKfhSIzGQzWvmwb6aA=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-marker/-/react-baidu-map-marker-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-navigation-control@2.6.0":
+  "integrity" "sha512-0zSBc7hXGYEknDV0LFvqYnYdp0PfUC61cV0HmwgFf9uHlqwcd0dfw4L9noFJaQDyAXpEOm19dk1QGO6BSjtuRg=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-navigation-control/-/react-baidu-map-navigation-control-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-overview-map-control@2.6.0":
+  "integrity" "sha512-edyo8Noezm3WGKfb3Q80k6mzdjk+XdF2NyoTh0VjmJdQUmJS0+4EJJZNgl+tH8hjXSBACJkaPq5luKaFhKNjtA=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-overview-map-control/-/react-baidu-map-overview-map-control-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-panorama-control@2.6.0":
+  "integrity" "sha512-9rE5EO2Eg3FPl+lTQJ4RSq+YHbXvK/m4oHbUC5dB78YGDKGtjWKiLnevAzL4yIv64p2adDtqDap/Bucl6ulYbw=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-panorama-control/-/react-baidu-map-panorama-control-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-point-collection@2.6.0":
+  "integrity" "sha512-8NRxIJzsdb3KVKUpFzFQ7dt1HIqnsXfpTBAUjM5x/+23BLMUqgmVnpLW29WTQFIkrXFuO/v4gAGmJz2FDsUJpg=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-point-collection/-/react-baidu-map-point-collection-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-polygon@2.6.0":
+  "integrity" "sha512-YRi0RUrBvDxgbfiFDLc6ixb5xsM/SCg0whYjDrseUQ5/zNGk7Qx+7jMjU/5N7Ufd9FEJt6H5qngaIXVX56FqNw=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-polygon/-/react-baidu-map-polygon-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-polyline@2.6.0":
+  "integrity" "sha512-idH9KcwXdlHzXnQFv2VYopx6IV6BTyryjtd5x1ejOseexRXXAUCHiXoEQDtvikyYrm3Aap6vUNBQmo3CM0Ukqw=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-polyline/-/react-baidu-map-polyline-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-require-script@2.6.0":
+  "integrity" "sha512-UhjMTX9dyWlN3h4ms7Ayl0EECGt6RxFoiwZ2RRq2/mALXlGV/CWWVmYPl9Ya8OiwKH5k0KKcYvzT8qDi5DC6dQ=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-require-script/-/react-baidu-map-require-script-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-scale-control@2.6.0":
+  "integrity" "sha512-4w+7YF07l/X3CIAOyMZasjA30WSdU7j6swvbqb90IMtZyUS4IjcXV+pYtg+Vt+nWjkNp/o9BV84YP4V7WBcQ2A=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-scale-control/-/react-baidu-map-scale-control-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-tile-layer@2.6.0":
+  "integrity" "sha512-5RqDKYbJizpuSeWzWOnk0zcJvrMrdNybm6twnRjYlpH8954252V/86OLH3j8vqtrMZzupUfogiy5KeY+L31miA=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-tile-layer/-/react-baidu-map-tile-layer-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-type-control@2.6.0":
+  "integrity" "sha512-6zFxUbm1zqYmuooEW8qGv7bcImww4cyNzQaZmtONIh+gx1pCj+nDSAJUkQO3rzRx3VkD4CXzd9RiLc88ObRMYw=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-type-control/-/react-baidu-map-type-control-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+
+"@uiw/react-baidu-map-types@2.6.0":
+  "integrity" "sha512-R3OA12/tsz9zp7pAixL526s9qLiDDPf9U/QDGJ9rLLMFsSwlAZBa99JBJidQIV3peYZ/RN2cOSuReTYd9t6CqQ=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-types/-/react-baidu-map-types-2.6.0.tgz"
+  "version" "2.6.0"
+
+"@uiw/react-baidu-map-utils@2.6.0":
+  "integrity" "sha512-lsBBp/RN9wi7331KoLwfW32hpEp2KbwzVKg3+3YE16aC87xSqrT9ZbrKBUrOM+ZLwq9iHRXlV+b9zbyIztqFUw=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-utils/-/react-baidu-map-utils-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-types" "2.6.0"
+
+"@uiw/react-baidu-map-with-map@2.6.0":
+  "integrity" "sha512-SYqHC4Cmt6bGR51ThZPbq+z8vEtdqt+eFPuc+Bh1cWBGOjQCinFIYJJqOgqO0NLsVD38olnuxmlfAce4Sy48Cg=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map-with-map/-/react-baidu-map-with-map-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+
+"@uiw/react-baidu-map@^2.6.0":
+  "integrity" "sha512-cz01okj5HReVgE3QS727LTgF3zYo2ri6b/iWhBKPc+4CtDRcoCHhqWCDNHuYHT7XzQdHAayKVKZVIncDEQ6gtg=="
+  "resolved" "https://registry.npmmirror.com/@uiw/react-baidu-map/-/react-baidu-map-2.6.0.tgz"
+  "version" "2.6.0"
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    "@uiw/react-baidu-map-api-loader" "2.6.0"
+    "@uiw/react-baidu-map-circle" "2.6.0"
+    "@uiw/react-baidu-map-control" "2.6.0"
+    "@uiw/react-baidu-map-copyright-control" "2.6.0"
+    "@uiw/react-baidu-map-curve-line" "2.6.0"
+    "@uiw/react-baidu-map-custom-overlay" "2.6.0"
+    "@uiw/react-baidu-map-drawing-manager" "2.6.0"
+    "@uiw/react-baidu-map-geolocation-control" "2.6.0"
+    "@uiw/react-baidu-map-ground-overlay" "2.6.0"
+    "@uiw/react-baidu-map-info-window" "2.6.0"
+    "@uiw/react-baidu-map-label" "2.6.0"
+    "@uiw/react-baidu-map-map" "2.6.0"
+    "@uiw/react-baidu-map-marker" "2.6.0"
+    "@uiw/react-baidu-map-navigation-control" "2.6.0"
+    "@uiw/react-baidu-map-overview-map-control" "2.6.0"
+    "@uiw/react-baidu-map-panorama-control" "2.6.0"
+    "@uiw/react-baidu-map-point-collection" "2.6.0"
+    "@uiw/react-baidu-map-polygon" "2.6.0"
+    "@uiw/react-baidu-map-polyline" "2.6.0"
+    "@uiw/react-baidu-map-require-script" "2.6.0"
+    "@uiw/react-baidu-map-scale-control" "2.6.0"
+    "@uiw/react-baidu-map-tile-layer" "2.6.0"
+    "@uiw/react-baidu-map-type-control" "2.6.0"
+    "@uiw/react-baidu-map-types" "2.6.0"
+    "@uiw/react-baidu-map-utils" "2.6.0"
+    "@uiw/react-baidu-map-with-map" "2.6.0"
 
 "acorn-jsx@^5.3.2":
   "integrity" "sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ=="
@@ -2075,6 +2634,11 @@
   dependencies:
     "yallist" "^4.0.0"
 
+"mapvgl@^1.0.0-beta.179":
+  "integrity" "sha512-f3dsy1no3L9lwN1Hc66yRaPHTMGTfDWYEP0HsJDcUboC5Bq7n9yLKw9W8dfvihqqLVLqrE+1OyRsyf0/CC0tYQ=="
+  "resolved" "https://registry.npmmirror.com/mapvgl/-/mapvgl-1.0.0-beta.179.tgz"
+  "version" "1.0.0-beta.179"
+
 "merge-stream@^2.0.0":
   "integrity" "sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w=="
   "resolved" "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz"
@@ -2142,12 +2706,12 @@
   "resolved" "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
 
-"next@13.4.1":
-  "integrity" "sha512-JBw2kAIyhKDpjhEWvNVoFeIzNp9xNxg8wrthDOtMctfn3EpqGCmW0FSviNyGgOSOSn6zDaX48pmvbdf6X2W9xA=="
-  "resolved" "https://registry.npmjs.org/next/-/next-13.4.1.tgz"
-  "version" "13.4.1"
+"next@^13.4.2":
+  "integrity" "sha512-aNFqLs3a3nTGvLWlO9SUhCuMUHVPSFQC0+tDNGAsDXqx+WJDFSbvc233gOJ5H19SBc7nw36A9LwQepOJ2u/8Kg=="
+  "resolved" "https://registry.npmmirror.com/next/-/next-13.4.2.tgz"
+  "version" "13.4.2"
   dependencies:
-    "@next/env" "13.4.1"
+    "@next/env" "13.4.2"
     "@swc/helpers" "0.5.1"
     "busboy" "1.6.0"
     "caniuse-lite" "^1.0.30001406"
@@ -2155,15 +2719,15 @@
     "styled-jsx" "5.1.1"
     "zod" "3.21.4"
   optionalDependencies:
-    "@next/swc-darwin-arm64" "13.4.1"
-    "@next/swc-darwin-x64" "13.4.1"
-    "@next/swc-linux-arm64-gnu" "13.4.1"
-    "@next/swc-linux-arm64-musl" "13.4.1"
-    "@next/swc-linux-x64-gnu" "13.4.1"
-    "@next/swc-linux-x64-musl" "13.4.1"
-    "@next/swc-win32-arm64-msvc" "13.4.1"
-    "@next/swc-win32-ia32-msvc" "13.4.1"
-    "@next/swc-win32-x64-msvc" "13.4.1"
+    "@next/swc-darwin-arm64" "13.4.2"
+    "@next/swc-darwin-x64" "13.4.2"
+    "@next/swc-linux-arm64-gnu" "13.4.2"
+    "@next/swc-linux-arm64-musl" "13.4.2"
+    "@next/swc-linux-x64-gnu" "13.4.2"
+    "@next/swc-linux-x64-musl" "13.4.2"
+    "@next/swc-win32-arm64-msvc" "13.4.2"
+    "@next/swc-win32-ia32-msvc" "13.4.2"
+    "@next/swc-win32-x64-msvc" "13.4.2"
 
 "npm-run-path@^4.0.1":
   "integrity" "sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw=="
@@ -2772,7 +3336,15 @@
     "rc-resize-observer" "^1.0.0"
     "rc-util" "^5.15.0"
 
-"react-dom@*", "react-dom@^16 || ^17 || ^18", "react-dom@^17.0.0 || ^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.0.0", "react-dom@>=16.11.0", "react-dom@>=16.6.0", "react-dom@>=16.9.0", "react-dom@18.2.0":
+"react-bmapgl@^0.2.20":
+  "integrity" "sha512-mmri3ExN6tED4feJd4fdwv8S2qop9irnmTGdgPUrYogDgOC+c+Hl8Qx3xKyIt1ZG8I8eVH9tXTze7WP+pmh5Gg=="
+  "resolved" "https://registry.npmmirror.com/react-bmapgl/-/react-bmapgl-0.2.20.tgz"
+  "version" "0.2.20"
+  dependencies:
+    "mapvgl" "^1.0.0-beta.179"
+    "shallowequal" "^1.1.0"
+
+"react-dom@*", "react-dom@^16 || ^17 || ^18", "react-dom@^17.0.0 || ^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.0.0", "react-dom@>=16.11.0", "react-dom@>=16.14.0", "react-dom@>=16.6.0", "react-dom@>=16.8.0", "react-dom@>=16.9.0", "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -2800,7 +3372,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@*", "react@^16 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>= 16", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.0.0", "react@>=16.11.0", "react@>=16.6.0", "react@>=16.8.0", "react@>=16.9.0", "react@18.2.0":
+"react@*", "react@^16 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>= 16", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.0.0", "react@>=16.11.0", "react@>=16.14.0", "react@>=16.6.0", "react@>=16.8.0", "react@>=16.9.0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -2909,6 +3481,11 @@
   "version" "7.5.0"
   dependencies:
     "lru-cache" "^6.0.0"
+
+"shallowequal@^1.1.0":
+  "integrity" "sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ=="
+  "resolved" "https://registry.npmmirror.com/shallowequal/-/shallowequal-1.1.0.tgz"
+  "version" "1.1.0"
 
 "shebang-command@^2.0.0":
   "integrity" "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA=="
@@ -3167,7 +3744,7 @@
 
 "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta", "typescript@>=3.3.1":
   "integrity" "sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw=="
-  "resolved" "https://registry.npmjs.org/typescript/-/typescript-5.0.4.tgz"
+  "resolved" "https://registry.npmmirror.com/typescript/-/typescript-5.0.4.tgz"
   "version" "5.0.4"
 
 "unbox-primitive@^1.0.2":
