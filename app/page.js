@@ -10,7 +10,7 @@ import Register from "./components/Register/Register";
 import Search from "./components/Search/Search";
 import Center from "./components/Center/Center";
 import UniversityMap from "./components/UniversityMap/UniversityMap";
-import Footer from "./components/Footer/Footer";
+import HomeFooter from "./components/HomeFooter/HomeFooter";
 
 export default function Home() {
   const [isLogin, setIsLogin] = useState(false);
@@ -66,7 +66,7 @@ export default function Home() {
       {/* 大学位置 */}
       <UniversityMap />
       {/* 通用底部 */}
-      <Footer />
+      <HomeFooter />
     </>
   );
 }

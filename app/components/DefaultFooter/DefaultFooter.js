@@ -1,69 +1,15 @@
 import Link from "next/link";
-import styles from "./Footer.module.css";
+import styles from "./DefaultFooter.module.css";
 import { Divider } from "antd";
 import Image from "next/image";
 import { Col, Row } from "antd";
 import { GithubFilled, MessageOutlined } from "@ant-design/icons";
 
-export default function Footer() {
+export default function DefaultFooter() {
   return (
     <>
       <div className={styles.app}>
         <Divider />
-        <p className={styles.desc} style={{ fontWeight: "600" }}>
-          关于我们
-        </p>
-        <h1 className={styles.text}>志愿叶</h1>
-        <div className={styles.grid}>
-          <Image
-            className={styles.logo}
-            src="/about/para1.png"
-            alt="para1.png"
-            width={291}
-            height={180}
-            opacity={0.5}
-            priority
-          />
-          <Image
-            className={styles.logo}
-            src="/about/para2.png"
-            alt="para2.png"
-            width={291}
-            height={180}
-            opacity={0.5}
-            priority
-          />
-          <Image
-            className={styles.logo}
-            src="/about/para3.png"
-            alt="para3.png"
-            width={291}
-            height={180}
-            opacity={0.5}
-            priority
-          />
-          <Image
-            className={styles.logo}
-            src="/about/para4.png"
-            alt="para4.png"
-            width={291}
-            height={180}
-            opacity={0.5}
-            priority
-          />
-        </div>
-        <div className={styles.grid}>
-          <Image
-            className={styles.logoo}
-            src="/about/para5.png"
-            alt="para5.png"
-            width={1200}
-            height={250}
-            opacity={0.5}
-            priority
-          />
-        </div>
-
         <Divider>
           <Image
             className={styles.logo}

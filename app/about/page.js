@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 import { useState } from "react";
-import Footer from "../components/Footer/Footer";
+import DefaultFooter from "../components/DefaultFooter/DefaultFooter";
 
 export default function Home() {
   const [isLogin, setIsLogin] = useState(false);
@@ -22,7 +22,7 @@ export default function Home() {
             priority
           />
         </div>
-        <Footer/> 
+        <DefaultFooter/> 
       </main>
     </>
   );
