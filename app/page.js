@@ -10,6 +10,7 @@ import Register from "./components/Register/Register";
 import Search from "./components/Search/Search";
 import Center from "./components/Center/Center";
 import UniversityMap from "./components/UniversityMap/UniversityMap";
+import Footer from "./components/Footer/Footer";
 
 export default function Home() {
   const [isLogin, setIsLogin] = useState(false);
@@ -60,64 +61,12 @@ export default function Home() {
             priority
           />
         </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p>Explore the Next.js 13 playground.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p>
-              Instantly deploy your Next.js site to a shareable URL with Vercel.
-            </p>
-          </a>
-        </div>
       </main>
       <Main />
       {/* 大学位置 */}
       <UniversityMap />
+      {/* 通用底部 */}
+      <Footer />
     </>
   );
 }
