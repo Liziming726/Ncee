@@ -6,13 +6,6 @@ import { Map, APILoader } from "@uiw/react-baidu-map";
 import { Divider } from "antd";
 
 export default function UniversityMap() {
-  const content = (
-    <div>
-      {`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id dignissim justo.
-   Nulla ut facilisis ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-   Sed malesuada lobortis pretium.`}
-    </div>
-  );
   return (
     <>
       <div className={styles.main}>

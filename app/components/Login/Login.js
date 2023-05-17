@@ -12,10 +12,11 @@ import styles from "./Login.module.css";
 import axios from "axios";
 
 export default function Login(props) {
-  const user = JSON.parse(localStorage.getItem("user"));
+  // const user = JSON.parse(localStorage.getItem("user"));
   const [open, setOpen] = useState(false);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [user, setUser] = useState(null);
   const [isLogin, setIsLogin] = useState(false);
 
   const handleClickOpen = () => {
@@ -34,27 +35,15 @@ export default function Login(props) {
     setPassword(event.target.value);
   };
 
-  // const handleSubmit = async () => {
-  //   try {
-  //     const response = await axios.post(
-  //       "https://example.com/login",
-  //       {
-  //         username: username,
-  //         password: password,
-  //       }
-  //     );
-  //     localStorage.setItem("user", JSON.stringify(response.data));
-  //     props.setIsLogin(true);
-  //     handleClose();
-  //   } catch (error) {
-  //     console.error(error);
-  //   }
-  // };
-
-// 测试登录保存数据
   const handleSubmit = async () => {
     try {
-      const response = { data: { name: "John Doe" } }; // dummy user object
+      const response = await axios.post(
+        "https://example.com/login",
+        {
+          username: username,
+          password: password,
+        }
+      );
       localStorage.setItem("user", JSON.stringify(response.data));
       props.setIsLogin(true);
       handleClose();
