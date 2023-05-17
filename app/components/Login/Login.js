@@ -52,7 +52,7 @@ export default function Login(props) {
     }
   };
 
-// 测试登录保存数据
+  // 测试登录保存数据
   // const handleSubmit = async () => {
   //   try {
   //     const response = { data: { name: "John Doe" } }; // dummy user object
@@ -66,12 +66,12 @@ export default function Login(props) {
   return (
     <div>
       {user ? (
-      <p>Welcome, {user.name}!</p> // display user data if available
-    ) : (
-      <Button className={styles.btn} onClick={handleClickOpen}>
-        <p className={styles.para}>Sign in</p>
-      </Button>
-    )}
+        <p>Welcome, {user.name}!</p> // display user data if available
+      ) : (
+        <Button className={styles.btn} onClick={handleClickOpen}>
+          <p className={styles.para}>登录</p>
+        </Button>
+      )}
 
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>
@@ -85,14 +85,14 @@ export default function Login(props) {
           />
         </DialogTitle>
         <DialogContent>
-          <p className={styles.title}>Email address</p>
+          <p className={styles.title}>邮箱地址·</p>
           <Input
             className={styles.ipt}
             type="username"
             value={username}
             onChange={handleUsernameChange}
           />
-          <p className={styles.title}>Password</p>
+          <p className={styles.title}>密码</p>
           <Input
             className={styles.ipt}
             type="password"
@@ -100,7 +100,7 @@ export default function Login(props) {
             onChange={handlePasswordChange}
           />
           <Button className={styles.submit} onClick={handleSubmit}>
-            Sign in
+            登录
           </Button>
           {/* <a href="">Forgot password ?</a> */}
         </DialogContent>

@@ -5,6 +5,8 @@ import { Input, Space } from "antd";
 import axios from "axios";
 
 export default function Search() {
+  const [searchValue, setSearchValue] = useState("");
+
   const { Search } = Input;
 
   const suffix = (
@@ -16,7 +18,18 @@ export default function Search() {
     />
   );
 
-  const onSearch = (value) => console.log(value);
+  const onSearch = (value) => {
+    axios
+      .get(`https://cn.bing.com/search?q=${value}`)
+      .then((response) => {
+        console.log(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+
+    setSearchValue(""); // 将搜索值重置为空字符串
+  };
 
   return (
     <>
@@ -27,8 +40,11 @@ export default function Search() {
           width: 250,
           height: 30,
         }}
-        enterButton
+        // enterButton
         suffix={suffix}
+        value={searchValue}
+        onChange={(e) => setSearchValue(e.target.value)}
+        onSearch={onSearch}
       />
     </>
   );
