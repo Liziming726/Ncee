@@ -12,6 +12,9 @@ import Center from "./components/Center/Center";
 import UniversityMap from "./components/UniversityMap/UniversityMap";
 import HomeFooter from "./components/HomeFooter/HomeFooter";
 
+import { CommentOutlined, BulbOutlined } from "@ant-design/icons";
+import { FloatButton } from "antd";
+
 export default function Home() {
   const [isLogin, setIsLogin] = useState(false);
   return (
@@ -61,6 +64,18 @@ export default function Home() {
             priority
           />
         </div>
+        {/* float button */}
+        <FloatButton.Group
+          trigger="hover"
+          type="primary"
+          style={{
+            right: 24,
+          }}
+          icon={<BulbOutlined />}
+        >
+          <FloatButton />
+          <FloatButton icon={<CommentOutlined />} />
+        </FloatButton.Group>
       </main>
       <Main />
       {/* 大学位置 */}

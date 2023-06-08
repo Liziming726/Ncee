@@ -14,17 +14,26 @@
     padding-bottom: .5rem;
     color: rgb(63 63 70);
 }
+.intro {
+    padding-bottom: .5rem;
+    color: rgb(63 63 70);
+    font-size: large;
+    text-indent: 2rem;
+}
 
 .text {
     color: transparent;
     background-image: linear-gradient(to right, #00dc82 0%, #fff 30%, #fff 100%);
     background-clip: text;
     padding-bottom: .5rem;
+    transition: all 2s ease-in-out;
+
 }
 .text:hover {
     color: transparent;
     background-image: linear-gradient(to right, #ddd 0%, #00dc82 30%, #00dc82 100%);
     background-clip: text;
+    transition: all 2s ease-in-out;
 }
 
 .grid {

@@ -21,7 +21,7 @@ export default function Footer() {
             关于我们
           </p>
           <h1 className={styles.text}>志愿叶</h1>
-          <div className={styles.grid}>
+          {/* <div className={styles.grid}>
             <Image
               className={styles.logo}
               src="/about/para1.png"
@@ -58,9 +58,9 @@ export default function Footer() {
               opacity={0.5}
               priority
             />
-          </div>
+          </div> */}
           <div className={styles.grid}>
-            <Image
+            {/* <Image
             className={styles.logoo}
             src="/about/para5.png"
             alt="para5.png"
@@ -68,7 +68,14 @@ export default function Footer() {
             height={250}
             opacity={0.5}
             priority
-          />
+          /> */}
+            <span className={styles.intro}>
+              叶子和高考志愿有许多共同之处。就像叶子展现出个体的独特风姿一样，每个人也在成长过程中展示自己的个性。时间的推移让叶子逐渐变色掉落，而在高考志愿的路上，我们也必须做出困难的选择。
+              选择专业时，我们需慎重考虑兴趣、职业规划，做出科学合理的决策。这就像叶子在成长和繁荣后进入相对萎靡期时，依然保持生命基因，准备迎接成熟的下一阶段。
+              叶子的品种和形态也能给我们启示。了解叶子的形态、纹理和颜色，培养更丰富的审美观念。同样，选择高考志愿需要积累知识和经验，以全面、客观、务实的态度填报志愿。
+              叶子还能帮助辨识植物品种，而在填报高考志愿时，我们需要研究录取情况和就业前景，确定各专业区域的发展趋势和空间。
+              因此，叶子和高考志愿可以从多个方面联系起来。它们都要求我们做出理性的判断和决策。通过深入了解大自然中的叶子，可以激发我们对未来志愿选择的启示，为自己的人生道路树立信心和动力。
+            </span>
           </div>
 
           <Divider>
