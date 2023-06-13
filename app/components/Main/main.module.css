@@ -1,4 +1,9 @@
+/* 引入字体 */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
 .app {
+    /* 使用字体 */
+    font-family: 'Noto Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
