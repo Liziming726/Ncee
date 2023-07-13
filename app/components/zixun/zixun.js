@@ -4,7 +4,7 @@ import { LinkOutlined } from '@ant-design/icons'
 const { Meta } = Card
 
 const App = () => (
-  <div style={{ display: 'flex', gap: '30px' }}>
+  <div style={{ display: 'flex', gap: '30px', flexDirection:'row', justifyContent:'space-evenly' }}>
     <Card
       hoverable
       style={{
