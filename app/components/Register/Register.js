@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import Image from "next/image";
+import React, { useState } from "react"
+import Image from "next/image"
 import {
   Button,
   ButtonBase,
@@ -8,30 +8,30 @@ import {
   DialogTitle,
   Input,
   TextField,
-} from "@mui/material";
-import styles from "./Register.module.css";
-import axios from "axios";
+} from "@mui/material"
+import styles from "./Register.module.css"
+import axios from "axios"
 
-export default function Register({ isLogin }) {
-  const [open, setOpen] = useState(false);
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+export default function Register ({ isLogin }) {
+  const [open, setOpen] = useState(false)
+  const [username, setUsername] = useState("")
+  const [password, setPassword] = useState("")
 
   const handleClickOpen = () => {
-    setOpen(true);
-  };
+    setOpen(true)
+  }
 
   const handleClose = () => {
-    setOpen(false);
-  };
+    setOpen(false)
+  }
 
   const handleUsernameChange = (event) => {
-    setUsername(event.target.value);
-  };
+    setUsername(event.target.value)
+  }
 
   const handlePasswordChange = (event) => {
-    setPassword(event.target.value);
-  };
+    setPassword(event.target.value)
+  }
 
   const handleSubmit = async () => {
     try {
@@ -41,42 +41,42 @@ export default function Register({ isLogin }) {
           username: username,
           password: password,
         }
-      );
-      localStorage.setItem("user", JSON.stringify(response.data));
-      handleClose();
+      )
+      localStorage.setItem("user", JSON.stringify(response.data))
+      handleClose()
     } catch (error) {
-      console.error(error);
+      console.error(error)
     }
-  };
+  }
 
   return (
     <>
-    {isLogin ? null : (
+      {isLogin ? null : (
         <div>
           <ButtonBase className={styles.click} onClick={handleClickOpen}>
-            Register now
+            Register Now
           </ButtonBase>
 
           <Dialog open={open} onClose={handleClose}>
             <DialogTitle>
               <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
+                src="/logo1.jpg"
+                alt="Logo"
                 className={styles.vercelLogo}
-                width={400}
-                height={24}
+                width={360}
+                height={126}
                 priority
               />
             </DialogTitle>
             <DialogContent>
-              <p className={styles.title}>Email address</p>
+              <p className={styles.title}>账号</p>
               <Input
                 className={styles.ipt}
                 type="username"
                 value={username}
                 onChange={handleUsernameChange}
               />
-              <p className={styles.title}>Password</p>
+              <p className={styles.title}>密码</p>
               <Input
                 className={styles.ipt}
                 type="password"
@@ -84,7 +84,7 @@ export default function Register({ isLogin }) {
                 onChange={handlePasswordChange}
               />
               <Button className={styles.submit} onClick={handleSubmit}>
-                Register now
+                立即注册
               </Button>
               {/* <a href="">Forgot password ?</a> */}
             </DialogContent>
@@ -92,5 +92,5 @@ export default function Register({ isLogin }) {
         </div>
       )}
     </>
-  );
+  )
 }

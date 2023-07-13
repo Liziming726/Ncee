@@ -4,7 +4,6 @@ import styles from "./page.module.css";
 
 import { useState } from "react";
 import DefaultFooter from "../components/DefaultFooter/DefaultFooter";
-
 export default function Home() {
   const [isLogin, setIsLogin] = useState(false);
   return (

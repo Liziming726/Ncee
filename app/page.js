@@ -1,22 +1,21 @@
-"use client";
-import Image from "next/image";
-import styles from "./page.module.css";
-import Main from "./components/Main/main";
-
-import { useState } from "react";
-
-import Login from "./components/Login/Login";
-import Register from "./components/Register/Register";
-import Search from "./components/Search/Search";
-import Center from "./components/Center/Center";
-import UniversityMap from "./components/UniversityMap/UniversityMap";
-import HomeFooter from "./components/HomeFooter/HomeFooter";
-
-import { CommentOutlined, BulbOutlined } from "@ant-design/icons";
-import { FloatButton } from "antd";
-
-export default function Home() {
-  const [isLogin, setIsLogin] = useState(false);
+"use client"
+import Image from "next/image"
+import styles from "./page.module.css"
+import Main from "./components/Main/main"
+import Carousel from "./components/Carousel/Carousel"
+import { useState } from "react"
+import Gongneng from "./components/Gongneng/Gongneng"
+import Login from "./components/Login/Login"
+import Register from "./components/Register/Register"
+import Search from "./components/Search/Search"
+import Center from "./components/Center/Center"
+import HomeFooter from "./components/HomeFooter/HomeFooter"
+import { CommentOutlined, BulbOutlined } from "@ant-design/icons"
+import { FloatButton } from "antd"
+import Timeline from "./components/Timeline/Timeline"
+import Zixun1 from "./components/zixun/zixun"
+export default function Home () {
+  const [isLogin, setIsLogin] = useState(false)
   return (
     <>
       <main className={styles.main}>
@@ -25,11 +24,10 @@ export default function Home() {
           <div className={styles.logoo}>
             <Image
               className={styles.logo}
-              src="/next.svg"
-              // src="/textlogo.svg"
-              alt="Next.js Logo"
-              width={80}
-              height={37}
+              src="/logo1.jpg"
+              alt="Logo"
+              width={130}
+              height={80}
               priority
             />
           </div>
@@ -42,7 +40,6 @@ export default function Home() {
           {/* login and register */}
           <div>
             <a
-              // href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -51,18 +48,18 @@ export default function Home() {
             </a>
           </div>
         </div>
+        {/* 轮播图 */}
 
-        <div className={styles.center}>
-          {/* <Center /> */}
-          <Image
-            className={styles.logo}
-            src="/textlogo.svg"
-            alt="Next.js Logo"
-            width={280}
-            height={140}
-            opacity={0.5}
-            priority
-          />
+
+
+        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <div style={{ width: '900px', height: '560px', marginTop: '40px', marginBottom: '-80px', marginRight: '40px' }}>
+            <Carousel></Carousel>
+          </div>
+          <div style={{ width: '250px', height: '400px', marginTop: '27px', marginBottom: '-80px' }}>
+            <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>志愿填报时间轴</h2>
+            <Timeline></Timeline>
+          </div>
         </div>
         {/* float button */}
         <FloatButton.Group
@@ -77,11 +74,20 @@ export default function Home() {
           <FloatButton icon={<CommentOutlined />} />
         </FloatButton.Group>
       </main>
-      <Main />
-      {/* 大学位置 */}
-      <UniversityMap />
+      <Gongneng></Gongneng>
+      <div>
+        <h1 style={{ textAlign: 'center', marginTop: '80px', fontSize: '50px' }}>高考资讯</h1>
+
+
+      </div>
+
+      <div>
+        <Zixun1></Zixun1>
+      </div>
+
       {/* 通用底部 */}
       <HomeFooter />
+      {/* <School/> */}
     </>
-  );
+  )
 }

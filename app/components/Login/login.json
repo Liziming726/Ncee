@@ -1,0 +1,5 @@
+//写一段json格式的数据
+{
+  "user": "admin",
+  "password": "123456"
+}
